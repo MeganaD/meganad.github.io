@@ -17,7 +17,7 @@ baseurl: ""
 title: MeganaD
 
 # Short description of your site
-description: mega's flickering blog...
+description: MeganaD's blog
 
 # --- Navigation bar options --- #
 
@@ -71,7 +71,7 @@ author:
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  rss: true
+  rss: false
   email: "meganad@outlook.kr"
   #facebook: meganad
   github: meganad
@@ -104,7 +104,7 @@ share-links-active:
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: ""
+gtag: "UA-136857567-1"
 
 # Fill in your Google Analytics ID to track your website using GA
 #google_analytics: ""
