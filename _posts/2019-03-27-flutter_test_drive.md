@@ -20,13 +20,15 @@ dart 언어에한 인상은... 좀 애매하다.
 
 ![](../img/2019-03-27-flutter_test_drive/2019-03-28-09-28-26.png)
 
-flutter 플러그인의 기능인것 같은데 마직막 **)** 뒤에 객체가 표시된다.  
+flutter 플러그인의 기능인것 같은데 닫는 **)** 뒤에 객체가 표시된다.  
 실제 파일에는 저장되지않고 표시만 되는데 덕분에 보기가 좀 수월하다.  
 
-자바스크립트인데 자바스러워서 다소 헤깔리는데 보다보면 익숙해질듯 싶다.  
-우선 dart를 익혀야 할것 같진 않고 flutter app을 만들어보다가 필요할때 찾아보면 되듯하다.
+자바스크립트인데 자바스러워서 부자연스러워 보이지만 익숙해지리라 생각한다.   
+우선 dart를 익혀야 할것 같진 않고 flutter app을 만들어보다가 필요할때 찾아보면 될듯하다.
 
 ```dart
+// Add a stateful widget
+
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
 
@@ -46,11 +48,10 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
+/*
 class RandomWords extends StatefulWidget {
   @override
   RandomWordsState createState() => new RandomWordsState();
 }
-
-
+*/
 ```
