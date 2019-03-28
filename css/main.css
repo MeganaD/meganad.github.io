@@ -3,11 +3,13 @@ layout: null
 ---
 
 @import url("pygment_highlights.css");
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Nanum+Gothic+Coding');
+@import url('https://cdn.jsdelivr.net/npm/hack-font@3/build/web/hack-subset.css');
 
 /* --- General --- */
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Nanum Gothic', 'Lora', 'Times New Roman', serif;
   font-size: 18px;
   color: #404040;
   position: relative;
@@ -22,7 +24,7 @@ p {
   margin: 30px 0;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Nanum Gothic','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
 a {
@@ -530,7 +532,7 @@ footer .theme-by {
     padding: 150px 0;
   }
   .intro-header .page-heading h1 {
-    font-size: 80px;
+    font-size: 60px;
   }
   .intro-header .post-heading h1 {
     font-size: 50px;
@@ -677,6 +679,7 @@ pre {
 }
 pre code {
   white-space: pre;
+  font-family: Hack;
 }
 pre.highlight, .highlight > pre, td.code pre {
   background-color: #FAFAFA;
