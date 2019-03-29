@@ -25,33 +25,3 @@ flutter 플러그인의 기능인것 같은데 닫는 **)** 뒤에 객체가 표
 
 자바스크립트인데 자바스러워서 부자연스러워 보이지만 익숙해지리라 생각한다.   
 우선 dart를 익혀야 할것 같진 않고 flutter app을 만들어보다가 필요할때 찾아보면 될듯하다.
-
-```dart
-// Add a stateful widget
-
-import 'package:flutter/material.dart';
-import 'package:english_words/english_words.dart';
-
-void main() => runApp(new MyApp());
-
-class MyApp extends StatelessWidget {
-  var primaryColor = Colors.yellow;
-
-  @override
-  Widget build(BuildContext context) {
-    return new MaterialApp(
-      title: 'Startup Name Generator',
-      home: RandomWords(),
-      theme: new ThemeData(
-        primarySwatch:primaryColor,
-      ),
-    );
-  }
-}
-/*
-class RandomWords extends StatefulWidget {
-  @override
-  RandomWordsState createState() => new RandomWordsState();
-}
-*/
-```
