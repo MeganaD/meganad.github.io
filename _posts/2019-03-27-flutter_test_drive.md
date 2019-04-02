@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: first Flutter app 후기
 subtitle: flutter app 생성 및 테스트
 tag: [flutter]
