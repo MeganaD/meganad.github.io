@@ -1,3 +1,7 @@
 {
-    "pasteImage.path": "${projectRoot}/img/${currentFileNameWithoutExt}/"
+    "pasteImage.path": "${projectRoot}/img/${currentFileNameWithoutExt}/",
+    "files.exclude": {
+        "**/_site": true,
+        "**/.vscode": true,
+    }
 }
