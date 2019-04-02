@@ -1,7 +1,6 @@
 ---
 layout: page
-title: About me
-subtitle: Hi~ I'm meganad
+title: about me
 ---
 
-MeganaD's blog for coding study.
+## mega's blog for coding study and others.
