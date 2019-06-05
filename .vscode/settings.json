@@ -3,5 +3,6 @@
     "files.exclude": {
         "**/_site": true,
         "**/.vscode": true,
-    }
+    },
+    "workbench.colorTheme": "Night Owl Light"
 }
