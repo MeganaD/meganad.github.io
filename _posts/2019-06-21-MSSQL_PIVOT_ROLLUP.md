@@ -63,5 +63,4 @@ ORDER BY isnull(Period,9)
 *[MSSQL WITH CTE 문서](https://docs.microsoft.com/ko-kr/sql/t-sql/queries/with-common-table-expression-transact-sql?view=sql-server-2017#c-using-multiple-cte-definitions-in-a-single-query)*
 
 
-<strike>오랫만에 신경써서 작성한 쿼리라 기록해 둔다...ㅋ</strike> 
 
