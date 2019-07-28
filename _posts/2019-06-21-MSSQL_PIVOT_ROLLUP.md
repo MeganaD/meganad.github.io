@@ -58,9 +58,9 @@ FROM tbl2
 ORDER BY isnull(Period,9)
 ```
 *참고*  
-*[MSSQL PIVOT 문서](https://docs.microsoft.com/ko-kr/sql/t-sql/queries/from-using-pivot-and-unpivot)*  
-*[MSSQL ROLLUP 문서](https://docs.microsoft.com/ko-kr/sql/t-sql/queries/select-group-by-transact-sql?view=sql-server-2017#group-by-rollup)*  
-*[MSSQL WITH CTE 문서](https://docs.microsoft.com/ko-kr/sql/t-sql/queries/with-common-table-expression-transact-sql?view=sql-server-2017#c-using-multiple-cte-definitions-in-a-single-query)*
+*[MSSQL PIVOT 문서](https://docs.microsoft.com/ko-kr/sql/t-sql/queries/from-using-pivot-and-unpivot){:target="_blank"}*  
+*[MSSQL ROLLUP 문서](https://docs.microsoft.com/ko-kr/sql/t-sql/queries/select-group-by-transact-sql?view=sql-server-2017#group-by-rollup){:target="_blank"}*  
+*[MSSQL WITH CTE 문서](https://docs.microsoft.com/ko-kr/sql/t-sql/queries/with-common-table-expression-transact-sql?view=sql-server-2017#c-using-multiple-cte-definitions-in-a-single-query){:target="_blank"}*
 
 
 

@@ -8,7 +8,7 @@ tag: [LINE, LINE Notify, Messaging Services]
 자신이 사용하는 메신저에 알림을 보내주는 서비스를 만들어 볼려고 이것저것 살펴보다가 라인으로 보내는게 꽤 편하게 되있어서 정리해 둔다.  
 
 당연한 이야기지만 라인계정이 있어야 한다.  
-공식 페이지 [LINE Notify](https://notify-bot.line.me/en/)~~(영어,일어,중국어는 있는데 한글은...없다...나같은 영알못은...)~~로 가서 로그인한다.  
+공식 페이지 [LINE Notify](https://notify-bot.line.me/en/){:target="_blank"}~~(영어,일어,중국어는 있는데 한글은 없다...)~~로 가서 로그인한다.  
 마이페이지로 가면 Generate token 버튼이 있다.  
 메세지를 구분할 이름을 넣고 토큰을 생성한다.  
 이때 메시지를 받을 대화방을 골라야 한다.  
@@ -26,7 +26,7 @@ tag: [LINE, LINE Notify, Messaging Services]
 
 
 
-이제 [개발문서](https://notify-bot.line.me/doc/en/)를 참고해서 서비스를 만들어보자.  
+이제 [개발문서](https://notify-bot.line.me/doc/en/){:target="_blank"}를 참고해서 서비스를 만들어보자.  
 POST로 ouath 토큰과 메시지를 전달해주면 알림이 간다.
 
 node 프로젝트에서 아래처럼 구현했다.  
