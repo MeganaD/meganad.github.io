@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 라인(LINE)으로 메세지 보내기
-subtitle: LINE Notify API 사용기
+title: LINE Notify API - 라인 메시지 서비스
+subtitle: 라인으로 알림 받기
 tag: [LINE, LINE Notify, Messaging Services]
 ---
 
