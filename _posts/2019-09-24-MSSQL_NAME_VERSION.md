@@ -32,3 +32,5 @@ MSSQL 버전표 ([출처](https://sqlserverbuilds.blogspot.com/){:target="_blank
 |  SQL Server 2008 R2 | SQL Server 10.5 | 10.0.1600.22 | 10.0.2531.0 | 10.0.4000.0 | 10.0.5500.0 | 10.0.6000.29 |
 |  SQL Server 2005    | SQL Server 9    | 9.0.1399.06  | 9.0.2047    | 9.0.3042    | 9.0.4035    | 9.0.5000     |
 |  SQL Server 2000    | SQL Server 8    | 8.0.194      | 8.0.384     | 8.0.532     | 8.0.760     | 8.0.2039     |
+
+<br/>
