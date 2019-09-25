@@ -16,13 +16,21 @@ WordPress로 개발된 사이트의 데이터를 가져와야 하는데
 목적이 WP에서 등록된 데이터를 MSSSQL로 인터페이스 하는 것이었기때문에 DB 레벨에서 해결하고자 했다.  
 다행히 mysql은 정규식을 지원하여 이를 활용하여 바꿀수 있었다.  
 
+>추가사항  
+>값에 "가 들어있으면 제대로 동작하지 않는다  OTL  
+>아직 정규식이 부족하여 ";를 만나기전까지 부분을 캡쳐해야되는데 못했다.  
+>우선 "는 이스케이프하여 처리하는걸로.. T^T  
+>[해결하시면 제게도 좀 알려주시면 감사...ㅋ](mailto:meganad@outlook.kr)  
+
+
+
 ```sql
 SELECT 
-REGEXP_REPLACE(
 	REGEXP_REPLACE(
-		REGEXP_REPLACE(form_value, '\\D:\\d{1,}:','')
-	,'(;)([^;]*)(;)', ':\\2,' )
-,',}$','}')
+		REGEXP_REPLACE(
+			REGEXP_REPLACE(form_value, '(?m)\\D:\\d{1,}:','')
+		,'(?m)(;")([^"]*)(";)', ':"\\2",' )
+	,'(?m),}$','}')
 FROM db.wp_db7_forms 
 ```
 <br/>
