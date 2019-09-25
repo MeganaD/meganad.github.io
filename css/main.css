@@ -647,11 +647,12 @@ table tr {
   padding: 0;
 }
 table tr:nth-child(2n) {
-  background-color: #f8f8f8;
+  background-color: #fcfcfc;
 }
 table tr th {
   font-weight: bold;
   border: 1px solid #cccccc;
+  background-color: #ddd;
   text-align: left;
   margin: 0;
   padding: 6px 13px;
