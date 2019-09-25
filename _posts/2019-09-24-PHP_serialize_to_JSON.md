@@ -32,5 +32,8 @@ SELECT
 		,'(?m)(;")([^"]*)(";)', ':"\\2",' )
 	,'(?m),}$','}')
 FROM db.wp_db7_forms 
-```
+```  
+***[MySQL 8.0 이상](https://dev.mysql.com/doc/refman/8.0/en/regexp.html){:target="_blank"}***  
+***[MariaDB 10.0.5 이상](https://mariadb.com/kb/en/library/regexp_replace/){:target="_blank"}***
+
 <br/>
