@@ -1,7 +1,7 @@
 ---
 layout: post
-title: spring boot junit test error
-subtitle: no test found with test runner junit5 on Eclipse
+title: Spring Boot JUnit test error
+subtitle: no test found with test runner 'JUnit 5' on Eclipse
 tag: [Eclipse,Java,Spring Boot]
 published: true
 ---
