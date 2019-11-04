@@ -3,7 +3,7 @@ layout: post
 title: Spring Boot JUnit test error
 subtitle: no tests found with test runner 'JUnit 5' on Eclipse
 tag: [Eclipse,Java,Spring Boot]
-published: true
+published: False
 ---
 
 스프링부트로 기본 웹 프로젝트를 하나 생성하고 테스트를 실행하니  
