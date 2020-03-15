@@ -52,6 +52,23 @@ router.get('/line/send_notify', async (req, res, next) => {
 });
 ```
 
+python code...
+```python
+from requests import post
+url = 'https://notify-api.line.me/api/notify'
+token = '~~~'
+headers = { 
+    'Content-Type' : "application/x-www-form-urlencoded",
+    'Cache-Control' : "no-cache",
+    'Authorization' : "Bearer " + token 
+}
+data = {'message': ip}
+r = post(url, data=data, headers=headers)
+print(r.text)
+```
+
+
+
 테스트 코드를 불러보면 메시지가 온다.  
 1-on-1 의 경우 LINE Notify와 대화방에 메시지가 발송된다.
 ![img4](../img/2019-07-25-LINE_Notify_API/img4.png)
