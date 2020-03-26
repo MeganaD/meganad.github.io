@@ -52,6 +52,7 @@ router.get('/line/send_notify', async (req, res, next) => {
 });
 ```
 
+
 python code...
 ```python
 from requests import post
