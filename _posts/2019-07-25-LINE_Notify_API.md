@@ -52,6 +52,8 @@ router.get('/line/send_notify', async (req, res, next) => {
 });
 ```
 
+
+python code...
 ```python
 from requests import post
 url = 'https://notify-api.line.me/api/notify'
