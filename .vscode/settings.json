@@ -4,5 +4,5 @@
         "**/_site": true,
         "**/.vscode": true,
     },
-    "workbench.colorTheme": "Night Owl Light"
+    "workbench.colorTheme": "Default Light+"
 }
