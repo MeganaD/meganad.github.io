@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Linting Django in VSCode
-subtitle: VSCode에서 장고 린트 설정
+title: VSCode에서 장고 린트 설정
+# subtitle: Linting Django in VSCode
 tag: [VSCode,Python,Django]
 published: True
 ---
