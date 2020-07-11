@@ -11,7 +11,7 @@ WSL도 그렇고 점점 개발을 위해 맥을 사야할 이유가 줄어드는
 
 Powershell이나 cmd 를 사용하다보면 가끔 vi 가 아쉬울때가 있다.  
 [chocolatey](https://chocolatey.org/){:target="_blank"}를 사용하면 쉽게 vi를 설치할수 있다.  
-*(chocolatey가 없거나 사용하지 않을 경우 [vim.org](https://www.vim.org/download.php#pcgit){:target="_blank"}에서 다운받아서 설치하면 된다.)*  
+*(chocolatey가 없거나 사용하지 않을 경우 [vim.org](https://www.vim.org/download.php#pc){:target="_blank"}에서 다운받아서 설치하면 된다.)*  
 관리자 모드로 터미널을 실행한후에 `choco install vim-console` 로 설치할수 있다.  
 *(`choco install vim` 은 GUI버전도 함께 설치된다.)*   
 
@@ -20,7 +20,7 @@ Powershell이나 cmd 를 사용하다보면 가끔 vi 가 아쉬울때가 있다
 
 그런데... `vi`로 실행하면... 안된다...  
 m하나 더 누르는게 귀찮으니 vi 로 실행하려면 Powershell alias 를 등록하면 된다.  
-```ps 
+```powershell
 New-Alias vi vim 
 ```
 
@@ -29,12 +29,12 @@ cmd와 Powershell 양쪽에서 쓰려면 bat파일을 만들어야 된다.
 둘중 한가지 사용하면 된다.*(관리자 권한이 필요하다.)*
 
 *Powershell:*
-```ps 
+```powershell 
 "vim %1" | New-Item C:\ProgramData\chocolatey\bin\vi.bat
 ```
 
 *cmd:*
-```dos
+```shell
 echo vim %1 > C:\ProgramData\chocolatey\bin\vi.bat
 ```
 
