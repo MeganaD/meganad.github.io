@@ -158,7 +158,7 @@ title-separator: "-"
 
 # Output options (more information on Jekyll's site)
 timezone: "Korea/Seoul"
-markdown: CommonMarkGhPages
+markdown: CommonMark
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
