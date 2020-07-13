@@ -1,3 +1,18 @@
-.highlight > pre > .btn {
+/* .highlight > pre > .btn {
     float: right;
+} */
+
+.cb-div{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.btn-cb{
+    color: #FFF;
+    background-color: #EB3A3A;
+    border: 0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.btn-bb:hover{
+    background-color: rgba(235, 58, 58, 0.774);
 }
