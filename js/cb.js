@@ -1,4 +1,4 @@
-let codes = document.querySelectorAll('.highlight > pre > code');
+let codes = document.querySelectorAll('code');
 let countID = 0;
 codes.forEach((code) => {
 	code.setAttribute("id", "code" + countID);
