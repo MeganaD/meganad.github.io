@@ -5,7 +5,7 @@ codes.forEach((code) => {
 	code.setAttribute("id", "code" + countID);
 
 	let btn = document.createElement('button');
-	btn.innerHTML = "Copy";
+	btn.innerHTML = "'<img src='/img/clippy.svg' height='10' alt='Copy to clipboard'>";
 	btn.className = "btn-cb";
 	btn.setAttribute("data-clipboard-action", "copy");
 	btn.setAttribute("data-clipboard-target", "#code" + countID);
