@@ -4,7 +4,7 @@ codes.forEach((code) => {
 	code.setAttribute("id", "code" + countID);
 	let clipButton = '<button class="btn" data-clipboard-target="#code' + countID 
 		+ '"><img src="/img/clippy.svg" width="13" alt="Copy to clipboard"></button>';
-	code.before(clipButton);
+	$(code).after(clipButton);
 	countID++; 
 }); 
 
