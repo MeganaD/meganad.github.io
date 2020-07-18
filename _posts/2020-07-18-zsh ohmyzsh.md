@@ -28,9 +28,9 @@ sudo apt install zsh
 ```
 설치가 완료되면 `zsh`을 입력해서 zsh을 실행한다. 
 ![](../img/2020-07-18-zsh%20ohmyzsh/2020-07-19-00-38-37.png)  
-처음 실행시 위와 같이 설정파일을 작성하라 [Oh My Zsh](https://ohmyz.sh/){:target="_blank"})이 덮어 써버리니 그냥 종료(q or ENTER)하자.  
+처음 실행시 위와 같이 설정파일을 작성하라고 하는데 [Oh My Zsh](https://ohmyz.sh/){:target="_blank"}이 덮어 써버리니 그냥 종료(q or ENTER)하자.  
 
-[Oh My Zsh](https://ohmyz.sh/){:target="_blank"})을 설치한다.  
+[Oh My Zsh](https://ohmyz.sh/){:target="_blank"}을 설치한다.  
 ```shell
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
@@ -41,7 +41,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 ![](../img/2020-07-18-zsh%20ohmyzsh/2020-07-19-00-50-25.png)  
 기본 프롬프트가 멋있지만... 지금 원하는건 파워라인이다.  
 ohmyzsh의 테마를 확인해보자.  
-[https://github.com/ohmyzsh/ohmyzsh/wiki/Themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes){:target="_blank"})  
+[https://github.com/ohmyzsh/ohmyzsh/wiki/Themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes){:target="_blank"}  
 
 `vi ~/.zshrc` 를 실행하고 ZSH_THEME="robbyrussell"라인을 `ZSH_THEME="agnoster"`로 변경한다.  
 (vi 대신 `code ~/.zshrc`를 사용해보자! 정말 편하다...~~이것때문에 WSL 쓴다..ㅋ~~)
