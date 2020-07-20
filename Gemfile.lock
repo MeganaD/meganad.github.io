@@ -248,7 +248,9 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (= 193)
+  jekyll-commonmark
+  jekyll-commonmark-ghpages
   jekyll-paginate
 
 BUNDLED WITH
-   2.0.1
+   2.1.4
