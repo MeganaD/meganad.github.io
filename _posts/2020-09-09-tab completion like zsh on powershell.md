@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ppowershell에서 tab 자동완성 
+title: Powershell에서 tab 자동완성 
 tag: [Powershell, Windows Terminal]
 published: True
 ---
