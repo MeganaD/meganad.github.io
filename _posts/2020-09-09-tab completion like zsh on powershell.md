@@ -16,7 +16,7 @@ bash처럼 항목을 일단 다 보여주던가,
 아니면 zsh 처럼 메뉴로 해주면 편할텐데...  
 
 **그런데! 몰랐을 뿐이지... 파워쉘에 해당 기능이 다 있었다.**  
-[PSReadLine](https://docs.microsoft.com/en-us/powershell/module/psreadline/?view=powershell-7){:target="_blank"}이라는 이란 이름으로 구현되어있었다.
+[PSReadLine](https://docs.microsoft.com/en-us/powershell/module/psreadline/?view=powershell-7){:target="_blank"}이라는 이란 이름으로 구현되어있었다.  
 tab 이 아닌 &lt;Ctrl+Space&gt;를 누르면 메뉴 형태로 나타난다!  
 전체목록 확인은 [여기](https://docs.microsoft.com/en-us/powershell/module/psreadline/get-psreadlinekeyhandler?view=powershell-7#example-1--get-all-key-mappings){:target="_blank"}를 참고하자.  
 위의 목록을 확인해보면 Zsh의 ⇧,⇩ 키 기능도 &lt;F8&gt; 에 배정되어 있음을 알수 있다.
