@@ -19,9 +19,9 @@ bash처럼 항목을 일단 다 보여주던가,
 [PSReadLine](https://docs.microsoft.com/en-us/powershell/module/psreadline/?view=powershell-7){:target="_blank"}이라는 이란 이름으로 구현되어있었다.
 tab 이 아닌 <Ctrl+Space>를 누르면 메뉴 형태로 나타난다!
 전체목록 확인은 [여기](https://docs.microsoft.com/en-us/powershell/module/psreadline/get-psreadlinekeyhandler?view=powershell-7#example-1--get-all-key-mappings){:target="_blank"}를 참고하자.
-위의 목록을 확인해보면 Zsh의 ↑,↓ 키 기능도 <F8>에 배정되어 있음을 알수 있다.
+위의 목록을 확인해보면 Zsh의 ⇧,⇩ 키 기능도 <F8>에 배정되어 있음을 알수 있다.
 
-파워쉘 PROFILE에서 [키 바인딩 변경](https://docs.microsoft.com/en-us/powershell/module/psreadline/set-psreadlinekeyhandler?view=powershell-7){:target="_blank"}을 통해 Tab,↑,↓ 키가 Zsh처럼 동작하게 수정할 수 있다.  
+파워쉘 PROFILE에서 [키 바인딩 변경](https://docs.microsoft.com/en-us/powershell/module/psreadline/set-psreadlinekeyhandler?view=powershell-7){:target="_blank"}을 통해 Tab,⇧,⇩ 키가 Zsh처럼 동작하게 수정할 수 있다.  
 
 아래 코드를 파워쉘에서 실행하고 파워쉘을 다시 시작하면 된다.
 
