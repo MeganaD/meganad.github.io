@@ -24,8 +24,6 @@ Vagrant와 가상머신을 사용한다면 도커도 되지 않을까 해서 알
   </p>  
 </details>
 
-<br/>
-  
 Windows Teminal에서 WSL에 접속하고 ```curl -s https://laravel.build/example-app | bash ```를 실행하면 샘플프로젝트가 생성된다.  
 
 이제 vscode만 있다면 개발 준비 완료... ```code .```으로 확인할수 있다.  
