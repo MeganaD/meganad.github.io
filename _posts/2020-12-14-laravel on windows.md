@@ -18,7 +18,7 @@ Vagrant와 가상머신을 사용한다면 도커도 되지 않을까 해서 알
 <details>
   <summary>! Docker Desktop에서 WSL2 백엔드를 사용해야한다.</summary>
   <p>
-    ![](../img/2020-12-14%20laravel%20on%20windows/2020-12-14-14-26-27.png)
+    ![](../img/2020-12-14-laravel%20on%20windows/2020-12-14-14-26-27.png)
   </p>
 </details>
 <br/>
@@ -29,10 +29,10 @@ Windows Teminal에서 WSL에 접속하고 ```curl -s https://laravel.build/examp
 
 실제 실행하는것을 보려면 ```./vendor/bin/sail up``` 을 실행하면 된다.  
 최초 실행할때 위에서 준비한 이미지에 설치,업데이트가 되는데 이게 꽤 오래 걸린다.  
-![](../img/2020-12-14%20laravel%20on%20windows/2020-12-14-14-09-01.png)  
+![](../img/2020-12-14-laravel%20on%20windows/2020-12-14-14-09-01.png)  
 한참기다리면 "Starting Laravel development server: http://0.0.0.0:80" 이란 메세지가 나온다.  
 이제 http://localhost/ 로 확인해보자.  
-![](../img/2020-12-14%20laravel%20on%20windows/2020-12-14-14-07-47.png)  
+![](../img/2020-12-14-laravel%20on%20windows/2020-12-14-14-07-47.png)  
 
 <br/>
 laravel.build/example-app 스크립트를 보면  
@@ -47,5 +47,5 @@ docker run --rm \
 
 laravelsail/php80-composer 이미지를 받아서 연결까지 해준것 같다.  
 
-![](../img/2020-12-14%20laravel%20on%20windows/2020-12-14-14-19-01.png)  
+![](../img/2020-12-14-laravel%20on%20windows/2020-12-14-14-19-01.png)  
 ~~세상편하구만...~~  
