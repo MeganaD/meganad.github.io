@@ -16,10 +16,15 @@ Vagrant와 가상머신을 사용한다면 도커도 되지 않을까 해서 알
 윈도우에서 WSL2와 Docker Desktop을 쓰고 있다면 매우 편하게 개발환경을 구성할 수 있다.  
 
 <details>
-  <summary>! Docker Desktop에서 WSL2 백엔드를 사용해야한다.</summary>
-  
+  <summary>
+    ! Docker Desktop에서 WSL2 백엔드를 사용해야한다.
+  </summary>
+  <p>
+
   ![](../img/2020-12-14-laravel%20on%20windows/2020-12-14-14-26-27.png)
+  </p>  
 </details>
+
 <br/>
   
 Windows Teminal에서 WSL에 접속하고 ```curl -s https://laravel.build/example-app | bash ```를 실행하면 샘플프로젝트가 생성된다.  
