@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Laravel on Windows test
-tag: [Laravel, PHP, WSL2]
+subtitle: 
 published: true
+tags: [Laravel, PHP, WSL ]
 ---
 
 
