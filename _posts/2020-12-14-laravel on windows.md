@@ -25,13 +25,14 @@ Vagrant와 가상머신을 사용한다면 도커도 되지 않을까 해서 알
 </details>
 
 Windows Teminal에서 WSL에 접속하고 ```curl -s https://laravel.build/example-app | bash ```를 실행하면 샘플프로젝트가 생성된다.  
+~~실행해보면 이것저것 다운하고 설치하고 꽤 오래 걸린다.~~  
 
-이제 vscode만 있다면 개발 준비 완료... ```code .```으로 확인할수 있다.  
-*참고. [vscode 와 Remote Development 확장팩이 필요하다.](https://code.visualstudio.com/docs/remote/wsl){:target="_blank"}* 
+이제 vscode만 있다면 개발 준비 완료... ```cd example-app && code .```으로 확인할수 있다.  
+*참고. [vscode 와 Remote Development 확장팩이 필요하다.](https://code.visualstudio.com/docs/remote/wsl){:target="_blank"}*   
+![](../img/2020-12-14-laravel%20on%20windows/2020-12-14-16-47-40.png)
 
-
-실제 실행하는것을 보려면 ```./vendor/bin/sail up``` 을 실행하면 된다.  
-최초 실행할때 위에서 준비한 이미지에 설치,업데이트가 되는데 이게 꽤 오래 걸린다.  
+실제 서버구동은 ```./vendor/bin/sail up``` 을 실행하면 된다.  
+~~최초 실행할때 위에서 준비한 이미지에 설치,업데이트가 되는데 이게 또 꽤 오래 걸린다...~~  
 ![](../img/2020-12-14-laravel%20on%20windows/2020-12-14-14-09-01.png)  
 한참기다리면 "Starting Laravel development server: http://0.0.0.0:80" 이란 메세지가 나온다.  
 이제 [localhost](http://localhost/){:target="_blank"} 로 확인해보자.  

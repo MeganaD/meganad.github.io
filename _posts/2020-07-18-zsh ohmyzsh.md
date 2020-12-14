@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ZSH, Oh My ZSH with WSL2 Ubuntu
-tag: [ZSH, Windows Terminal]
+tag: [ZSH, Windows Terminal, WSL]
 published: true
 ---
 
