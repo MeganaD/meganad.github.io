@@ -17,7 +17,7 @@ Vagrant와 가상머신을 사용한다면 도커도 되지 않을까 해서 알
 
 <details>
   <summary>
-    ! Docker Desktop에서 WSL2 백엔드를 사용해야한다.
+    참고. Docker Desktop에서 WSL2 백엔드를 사용해야한다.
   </summary>
   <p>
 
