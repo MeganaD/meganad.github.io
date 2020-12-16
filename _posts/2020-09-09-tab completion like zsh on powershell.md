@@ -28,7 +28,11 @@ tab 이 아닌 &lt;Ctrl+Space&gt;를 누르면 메뉴 형태로 나타난다!
 ```powershell
 (curl https://gist.githubusercontent.com/MeganaD/fe3894b39697da767b8b19b3e0bc047b/raw).Content | Add-Content $PROFILE
 ```
-*위 코드는 다음 세줄을 파워쉘 PROFILE에 추가한다.*
+
+*위 코드는 다음 네줄을 파워쉘 PROFILE에 추가한다.*
 <script src="https://gist.github.com/MeganaD/fe3894b39697da767b8b19b3e0bc047b.js"></script>
+
+*히스토리 탐색시 커서가 젤 뒤로 가지 않아 해당 내용 추가했다.(위 코드 네번째 줄)*
+
 
 
