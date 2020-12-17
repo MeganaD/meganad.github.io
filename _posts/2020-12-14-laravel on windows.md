@@ -28,7 +28,7 @@ Windows Teminal에서 WSL에 접속하고 ```curl -s https://laravel.build/examp
 ~~실행해보면 이것저것 다운하고 설치하고 꽤 오래 걸린다.~~  
 
 이제 vscode만 있다면 개발 준비 완료... ```cd example-app && code .```으로 확인할수 있다.  
-*참고. [vscode 와 Remote Development 확장팩이 필요하다.](https://code.visualstudio.com/docs/remote/wsl){:target="_blank"}*   
+*참고. [vscode 와 Remote Development 확장팩이 필요하다.](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack){:target="_blank"}*   
 ![](../img/2020-12-14-laravel%20on%20windows/2020-12-14-16-47-40.png)
 
 실제 서버구동은 ```./vendor/bin/sail up``` 을 실행하면 된다.  
