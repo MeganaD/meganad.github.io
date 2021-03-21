@@ -59,9 +59,9 @@ m하나 더 누르는게 귀찮으니, vi.bat로 복사본을 만들자.
 `copy C:\WINDOWS\vim.bat  C:\WINDOWS\vi.bat`  
 
 다운받아 설치 할 경우 아래처럼 한글로 출력된다.  
-![](../img/2020-07-10-powershell%20cmd%20vi/2021-03-22-00-07-16.png)
+![](../img/2020-07-10-powershell%20cmd%20vi/2021-03-22-00-07-16.png){: width="600px"}
 
-영어로 변경하고 싶다면 C:\Program Files (x86)\Vim\vim82\lang 폴더를 삭제하면 된다. (-_-)  
+영어로 변경하고 싶다면 C:\Program Files (x86)\Vim\vim82\lang 폴더를 삭제하자.😑  
 
 삭제하지 않고 변경하려면 관리자 권한으로
 `vi "C:\Program Files (x86)\Vim\_vimrc"`를 실행하고 첫 줄에 `language messages en`를 추가하자.  
