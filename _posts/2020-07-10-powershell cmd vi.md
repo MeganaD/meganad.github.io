@@ -3,6 +3,7 @@ layout: post
 title: Powershell, Cmd 에서 Vi 사용
 tag: [Powershell, Windows Terminal]
 published: True
+last_modified_at: 2021-03-22
 ---
 
 요즘 윈도우즈 터미널을 써보고 있는데, 여러가지 면에서 꽤 편리하다.  
