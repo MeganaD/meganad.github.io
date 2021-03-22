@@ -35,7 +35,7 @@ Windows Teminal에서 WSL에 접속하고 ```curl -s https://laravel.build/examp
 ~~최초 실행할때 위에서 준비한 이미지에 설치,업데이트가 되는데 이게 또 꽤 오래 걸린다...~~  
 ![](../img/2020-12-14-laravel%20on%20windows/2020-12-14-14-09-01.png)  
 한참기다리면 "Starting Laravel development server: http://0.0.0.0:80" 이란 메세지가 나온다.  
-이제 [localhost](http://localhost/){:target="_blank"} 로 확인해보자.  
+이제 http://localhost/ 로 확인해보자.  
 ![](../img/2020-12-14-laravel%20on%20windows/2020-12-14-14-07-47.png)  
 
 <br/>
