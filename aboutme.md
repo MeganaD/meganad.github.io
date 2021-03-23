@@ -1,6 +1,7 @@
 ---
 layout: page
 title: about me
+subtitle: mega's lightly write blog
 ---
 
-## mega's blog for coding study and others.
+## For books, codes and other studies
