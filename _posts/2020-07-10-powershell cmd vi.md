@@ -11,14 +11,15 @@ WSL도 그렇고 점점 개발을 위해 맥을 사야할 이유가 줄어드는
 
 그런데, Powershell이나 cmd 를 사용하다보면 가끔 vi 가 아쉬울때가 있다.  
 [chocolatey](https://chocolatey.org/){:target="_blank"}를 사용하면 쉽게 vi를 설치할수 있다.
-    
+
+*chocolatey가 없거나 사용하지 않을 경우 [vim을 다운받아서 설치하는 경우](#download-vim)를 참고*  
+
 chocolatey를 사용하여 설치하는 경우
 ----
 
 관리자 모드로 터미널을 실행한후에 `choco install vim-console` 로 설치할수 있다.  
 *(`choco install vim` 은 GUI버전도 함께 설치된다.)*   
 
-*chocolatey가 없거나 사용하지 않을 경우 [vim을 다운받아서 설치하는 경우](#download-vim)를 참고*  
 
 설치 후 터미널에서 "vim"을 입력하면 끝~  
 ![](../img/2020-07-10-powershell%20cmd%20vi/2020-07-11-01-37-43.png)
