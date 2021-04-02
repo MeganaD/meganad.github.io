@@ -4,5 +4,5 @@
         "**/_site": true,
         "**/.vscode": true,
     },
-    "workbench.colorTheme": "Slack Theme Aubergine"
+    "workbench.colorTheme": "GitHub Light"
 }
