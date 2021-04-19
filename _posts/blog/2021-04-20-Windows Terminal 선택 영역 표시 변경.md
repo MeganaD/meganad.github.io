@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Windows Terminal 선택 영역 표시 변경
-subtitle:Windows Terminal Profiles
+subtitle: Windows Terminal Profiles
 tag: [Windows Terminal]
 published: True
 ---
