@@ -5,6 +5,7 @@
 .cb-div{
     display: flex;
     flex-direction: row-reverse;
+    height: 0px;
 }
 .btn-cb{
     /* color: #FFF;
@@ -14,6 +15,7 @@
     font-size: 10pt;
     cursor: pointer;
     margin-left: 2px;
+    height: 23px;
 }
 .btn-cb:hover{
     background-color: #ccc;
