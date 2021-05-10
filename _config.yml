@@ -24,8 +24,9 @@ description: mega's blog
 # List of links in the navigation bar
 navbar-links:
   About: "about"
-  # Categories : "categories"
+  ISMS-P 인증기준: "ISMS-P/CERT/1"  
   Tags: "tags"
+  # Categories : "categories"
   # Resources:
   #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #   - Learn markdown: "http://www.markdowntutorial.com/"
