@@ -170,8 +170,7 @@ kramdown:
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
@@ -179,8 +178,7 @@ defaults:
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
       show-avatar: false
-  -
-    scope:
+  - scope:
       path: "" # all files
     values:
       layout: "page"
@@ -258,3 +256,19 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
+
+
+collections:
+  ISMS-P_cert:
+    output: true
+    permalink: /ISMS-P/CERT/:title
+    # order:
+    #   - 1.md
+    #   - 1.1.md
+    #   - 1.1.1.md
+    #   - 1.2.md
+    #   - 1.2.1.md
+
+
+
+
