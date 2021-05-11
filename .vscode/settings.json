@@ -4,5 +4,8 @@
         "**/_site": true,
         "**/.vscode": true,
     },
-    "workbench.colorTheme": "GitHub Light"
+    "workbench.colorTheme": "GitHub Light",
+    "css.hover.documentation": false,
+    "css.validate": false,
+    "css.hover.references": false
 }
