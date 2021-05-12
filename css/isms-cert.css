@@ -10,3 +10,7 @@ h3 {
 strong {
   color: #c60400;
 }
+
+.pager li a {
+  width: 159px;
+}
