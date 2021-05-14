@@ -37,3 +37,13 @@ strong {color: #c60400;}
     margin-left: 55px;
   }
 }
+
+table {
+  width: 100%;
+  font-size: smaller;
+}
+table tr th {
+  background-color:darkcyan;
+  color: #fff;
+  text-align: center;
+}
