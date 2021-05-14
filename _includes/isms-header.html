@@ -24,9 +24,21 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="division_nav">
+          <div class="div_a">
+            <a href="/ISMS-P/CERT/1">1.관리체계</a> |
+            <a href="/ISMS-P/CERT/2">2.보호대책</a> |
+            <a href="/ISMS-P/CERT/3">3.개인정보</a>
+          </div>
+        </div>
         <div class="post-heading">
-          <h2 class="post-subheading">{{cert['parent']}}</h2>
-          <h1>{{cert['id']}} {{cert['title']}}</h1>
+          {% if cert['id'] %}
+            <h2 class="post-subheading">{{cert['parent']}}</h2>
+            <h1>{{cert['id']}} {{cert['title']}}</h1>
+          {%elsif page.title %}
+            <h1>{{page.title}}</h1>
+            <h4>{{page.subtitle}}</h4>
+          {% endif %}
         </div>
       </div>
     </div>

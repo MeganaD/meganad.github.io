@@ -1,15 +1,7 @@
 
-h2 {
-  color: #009688;
-}
-
-h3 {
-  color: #3f51b5;
-}
-
-strong {
-  color: #c60400;
-}
+h2 {color: #009688;}
+h3,h4 {color: #3f51b5;}
+strong {color: #c60400;}
 
 .pager li a {
   width: 159px;
@@ -17,5 +9,31 @@ strong {
 @media (min-width: 768px){
   .pager li a {
     width: 289px;
+  }
+}
+
+.division_nav {
+  display: flex;
+  height: 20px;
+  flex-direction: row;
+  justify-content: flex-end;">
+}
+@media (min-width: 768px){
+  .division_nav  {
+    height: 0px;
+  }
+}
+.division_nav .div_a{
+  float: right;
+  font-size: small;
+  z-index: 100;
+}
+
+.post-heading h4 {
+  margin-left: 40px;
+}
+@media (min-width: 768px){
+  .post-heading h4 {
+    margin-left: 55px;
   }
 }
