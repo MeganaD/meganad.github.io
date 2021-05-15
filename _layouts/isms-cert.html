@@ -35,7 +35,38 @@ css:
       {% endif %}
 
       <article role="main" class="blog-post">
+
+
+
+        
+        
+        <h3>주요사항</h3>
+        <blockquote><strong>
+        {{site.data.ismsp-cert-summary[page.cert_item_no]['summary']}}
+        </strong></blockquote>
+        <hr>
+        <h3>인증기준</h3>  
+        {{site.data.ismsp-cert-std[page.cert_item_no]['std']}}  
+
+        {% assign chklist = site.data.ismsp-cert-chk[page.cert_item_no] %}
+        <h3>확인사항</h3>
+          <ul>
+          {% for item in chklist offset:2 %}
+            {% if item[1] %}<li>{{ item[1] | remove: '<p>' | remove: '</p>' }}</li>{% endif %}
+          {% endfor %}
+          </ul>
+
+        {% assign errlist = site.data.ismsp-cert-err[page.cert_item_no] %}
+        <h3>결함사례</h3>
+        <ul>
+          {% for item in errlist offset:2 %}
+            {% if item[1] %}  <li>{{ item[1] | remove: '<p>' | remove: '</p>' }}</li>{% endif %}
+          {% endfor %}
+        </ul>
+        <hr>
+               
         {{ content }}
+
       </article>
 
 
