@@ -47,3 +47,11 @@ table tr th {
   color: #fff;
   text-align: center;
 }
+
+a {
+  color: #006cda;
+}
+
+li {
+  margin-bottom: 10px;
+}
