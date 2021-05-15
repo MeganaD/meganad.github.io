@@ -35,11 +35,8 @@ css:
       {% endif %}
 
       <article role="main" class="blog-post">
-
-
-
         
-        
+        {% if page.cert_item_no %}
         <h3>주요사항</h3>
         <blockquote><strong>
         {{site.data.ismsp-cert-summary[page.cert_item_no]['summary']}}
@@ -64,11 +61,11 @@ css:
           {% endfor %}
         </ul>
         <hr>
+        {% endif %}
                
         {{ content }}
 
       </article>
-
 
       {% if page.tags.size > 0 %}
         <div class="blog-tags">
