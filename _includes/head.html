@@ -7,8 +7,12 @@
 
   <meta name="author" content="{{ site.author.name }}" />
 
-  {% if page.subtitle %}
+  {% if page.description %}
+  <meta name="description" content="{{ page.description }}">
+  {% elsif page.subtitle %}
   <meta name="description" content="{{ page.subtitle }}">
+  {% elsif page.layout == "isms-cert" %}
+  <meta name="description" content="정보보호 및 개인정보보호 관리체계(ISMS-P) 인증기준: {{ page.title }}">
   {% endif %}
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }} {{ site.title-separator }} {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
