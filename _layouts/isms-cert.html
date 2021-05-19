@@ -38,10 +38,43 @@ css:
         
         {% if page.cert_item_no %}
         <h3>주요사항</h3>
-        <blockquote><strong>
+        <strong>
         {{site.data.ismsp-cert-summary[page.cert_item_no]['summary']}}
-        </strong></blockquote>
-        <hr>
+        </strong>
+      
+      {% if page.cert_item_no %}
+        {% assign pno = page.cert_item_no|minus: 1 %}
+        {% assign nno = page.cert_item_no|plus: 1 %}
+      {% endif %}
+
+      <ul class="pager blog-pager">
+        {% if page.prev_item %}
+        <li class="previous top">
+          <a href="{{ page.prev_item }}" data-toggle="tooltip" data-placement="top" title="{{page.prev_item}}">🡐</a>
+        </li>
+        {% elsif page.cert_item_no and pno >= 0 %}
+          {% assign p_cert = site.data.ismsp-cert-item[pno] %}
+        <li class="previous top">
+          <a href="{{p_cert['id']}}" data-toggle="tooltip" data-placement="top" title="{{p_cert['id']}} {{p_cert['title']}}">🡐</a>
+        </li>
+        {% endif %}
+        
+        {% if page.next_item %}
+        <li class="top next">
+          <a href="{{ page.next_item }}" data-toggle="tooltip" data-placement="top" title="{{page.next_item}}">🡒</a>
+        </li>
+        {% elsif  page.cert_item_no and nno <= 101 %}
+          {% assign n_cert = site.data.ismsp-cert-item[nno] %}
+        <li class="top next">
+          <a href="{{n_cert['id']}}" data-toggle="tooltip" data-placement="top" title="{{n_cert['id']}} {{n_cert['title']}}">🡒</a>
+        </li>
+        {% endif %}
+        
+      </ul>
+
+
+      <hr class="summary">
+
         <h3>인증기준</h3>  
         {{site.data.ismsp-cert-std[page.cert_item_no]['std']}}  
 
