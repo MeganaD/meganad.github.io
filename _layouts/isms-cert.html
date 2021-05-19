@@ -34,20 +34,13 @@ css:
         </div>
       {% endif %}
 
-      <article role="main" class="blog-post">
-        
+      <div>
         {% if page.cert_item_no %}
-        <h3>주요사항</h3>
-        <strong>
-        {{site.data.ismsp-cert-summary[page.cert_item_no]['summary']}}
-        </strong>
-      
-      {% if page.cert_item_no %}
         {% assign pno = page.cert_item_no|minus: 1 %}
         {% assign nno = page.cert_item_no|plus: 1 %}
       {% endif %}
 
-      <ul class="pager blog-pager">
+      <ul class="pager blog-pager top">
         {% if page.prev_item %}
         <li class="previous top">
           <a href="{{ page.prev_item }}" data-toggle="tooltip" data-placement="top" title="{{page.prev_item}}">🡐</a>
@@ -69,11 +62,22 @@ css:
           <a href="{{n_cert['id']}}" data-toggle="tooltip" data-placement="top" title="{{n_cert['id']}} {{n_cert['title']}}">🡒</a>
         </li>
         {% endif %}
-        
+       
       </ul>
+      </div>
 
+      <article role="main" class="blog-post">
+        
+        {% if page.cert_item_no %}
+        <h3>주요사항</h3>
+        <strong>
+        {{site.data.ismsp-cert-summary[page.cert_item_no]['summary']}}
+        </strong>
+        
+        <!-- <hr class="summary"> -->
 
-      <hr class="summary">
+      
+
 
         <h3>인증기준</h3>  
         {{site.data.ismsp-cert-std[page.cert_item_no]['std']}}  

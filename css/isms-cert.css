@@ -12,11 +12,8 @@ strong {color: #c60400;}
   }
 }
 
-hr.summary {
-  margin-bottom: 0;
-  margin-top: 5px;
-  border: 0;
-  border-top: 1px solid #999;
+.pager.blog-pager.top{
+  margin: 0;
 }
 
 .pager li.top a {
