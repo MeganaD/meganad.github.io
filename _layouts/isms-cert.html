@@ -43,23 +43,23 @@ css:
       <ul class="pager blog-pager top">
         {% if page.prev_item %}
         <li class="previous top">
-          <a href="{{ page.prev_item }}" data-toggle="tooltip" data-placement="top" title="{{page.prev_item}}">🡐</a>
+          <a href="{{ page.prev_item }}" data-toggle="tooltip" data-placement="top" title="{{page.prev_item}}">&larr;</a>
         </li>
         {% elsif page.cert_item_no and pno >= 0 %}
           {% assign p_cert = site.data.ismsp-cert-item[pno] %}
         <li class="previous top">
-          <a href="{{p_cert['id']}}" data-toggle="tooltip" data-placement="top" title="{{p_cert['id']}} {{p_cert['title']}}">🡐</a>
+          <a href="{{p_cert['id']}}" data-toggle="tooltip" data-placement="top" title="{{p_cert['id']}} {{p_cert['title']}}">&larr;</a>
         </li>
         {% endif %}
         
         {% if page.next_item %}
         <li class="top next">
-          <a href="{{ page.next_item }}" data-toggle="tooltip" data-placement="top" title="{{page.next_item}}">🡒</a>
+          <a href="{{ page.next_item }}" data-toggle="tooltip" data-placement="top" title="{{page.next_item}}">&rarr;</a>
         </li>
         {% elsif  page.cert_item_no and nno <= 101 %}
           {% assign n_cert = site.data.ismsp-cert-item[nno] %}
         <li class="top next">
-          <a href="{{n_cert['id']}}" data-toggle="tooltip" data-placement="top" title="{{n_cert['id']}} {{n_cert['title']}}">🡒</a>
+          <a href="{{n_cert['id']}}" data-toggle="tooltip" data-placement="top" title="{{n_cert['id']}} {{n_cert['title']}}">&rarr;</a>
         </li>
         {% endif %}
        
