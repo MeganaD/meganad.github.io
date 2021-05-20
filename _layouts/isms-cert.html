@@ -43,7 +43,7 @@ css:
       <ul class="pager blog-pager top">
         {% if page.prev_item %}
         <li class="previous top">
-          <a href="{{ page.prev_item }}" data-toggle="tooltip" data-placement="top" title="{{page.prev_item}}">&larr;</a>
+          <a href="{{ page.prev_item }}" data-toggle="tooltip" data-placement="top" title="{{page.prev_item}} {{page.prev_title}}">&larr;</a>
         </li>
         {% elsif page.cert_item_no and pno >= 0 %}
           {% assign p_cert = site.data.ismsp-cert-item[pno] %}
@@ -54,7 +54,7 @@ css:
         
         {% if page.next_item %}
         <li class="top next">
-          <a href="{{ page.next_item }}" data-toggle="tooltip" data-placement="top" title="{{page.next_item}}">&rarr;</a>
+          <a href="{{ page.next_item }}" data-toggle="tooltip" data-placement="top" title="{{page.next_item}} {{page.next_title}}">&rarr;</a>
         </li>
         {% elsif  page.cert_item_no and nno <= 101 %}
           {% assign n_cert = site.data.ismsp-cert-item[nno] %}
@@ -131,7 +131,7 @@ css:
       <ul class="pager blog-pager">
         {% if page.prev_item %}
         <li class="previous">
-          <a href="{{ page.prev_item }}" data-toggle="tooltip" data-placement="top" title="{{page.prev_item}}">{{page.prev_item}}<br/>{{page.prev_title}}</a>
+          <a href="{{ page.prev_item }}" data-toggle="tooltip" data-placement="top" title="{{page.prev_item}} {{page.prev_title}}">{{page.prev_item}}<br/>{{page.prev_title}}</a>
         </li>
         {% elsif page.cert_item_no and pno >= 0 %}
           {% assign p_cert = site.data.ismsp-cert-item[pno] %}
@@ -142,7 +142,7 @@ css:
         
         {% if page.next_item %}
         <li class="next">
-          <a href="{{ page.next_item }}" data-toggle="tooltip" data-placement="top" title="{{page.next_item}}">{{page.next_item}}<br/>{{page.next_title}}</a>
+          <a href="{{ page.next_item }}" data-toggle="tooltip" data-placement="top" title="{{page.next_item}} {{page.next_title}}">{{page.next_item}}<br/>{{page.next_title}}</a>
         </li>
         {% elsif  page.cert_item_no and nno <= 101 %}
           {% assign n_cert = site.data.ismsp-cert-item[nno] %}
