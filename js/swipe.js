@@ -14,5 +14,6 @@ $(function(){
                 if(prevPage) window.location.href = prevPage.href;
             },
         });
+        document.querySelectorAll('div.swipeNotice')[0].style.display = 'block';
     }
 });

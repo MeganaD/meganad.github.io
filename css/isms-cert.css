@@ -79,4 +79,5 @@ div.swipeNotice {
   font-size: small;
   font-style: italic;
   color: #888;
+  display: none;
 }
