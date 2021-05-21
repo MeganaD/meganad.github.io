@@ -64,3 +64,19 @@ a {
 li {
   margin-bottom: 10px;
 }
+
+hr {
+  border-top-color: #bbb;
+}
+
+hr.nomargin{
+  margin: 0;
+}
+
+div.swipeNotice {
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: small;
+  font-style: italic;
+  color: #888;
+}

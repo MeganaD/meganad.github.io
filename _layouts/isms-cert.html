@@ -2,7 +2,6 @@
 layout: base
 css: 
   - "/css/isms-cert.css"
-
 ---
 
 {% include isms-header.html %}
@@ -33,38 +32,7 @@ css:
           {% endif %}
         </div>
       {% endif %}
-
-      <div>
-        {% if page.cert_item_no %}
-        {% assign pno = page.cert_item_no|minus: 1 %}
-        {% assign nno = page.cert_item_no|plus: 1 %}
-      {% endif %}
-
-      <ul class="pager blog-pager top">
-        {% if page.prev_item %}
-        <li class="previous top">
-          <a href="{{ page.prev_item }}" data-toggle="tooltip" data-placement="top" title="{{page.prev_item}} {{page.prev_title}}">&larr;</a>
-        </li>
-        {% elsif page.cert_item_no and pno >= 0 %}
-          {% assign p_cert = site.data.ismsp-cert-item[pno] %}
-        <li class="previous top">
-          <a href="{{p_cert['id']}}" data-toggle="tooltip" data-placement="top" title="{{p_cert['id']}} {{p_cert['title']}}">&larr;</a>
-        </li>
-        {% endif %}
-        
-        {% if page.next_item %}
-        <li class="top next">
-          <a href="{{ page.next_item }}" data-toggle="tooltip" data-placement="top" title="{{page.next_item}} {{page.next_title}}">&rarr;</a>
-        </li>
-        {% elsif  page.cert_item_no and nno <= 101 %}
-          {% assign n_cert = site.data.ismsp-cert-item[nno] %}
-        <li class="top next">
-          <a href="{{n_cert['id']}}" data-toggle="tooltip" data-placement="top" title="{{n_cert['id']}} {{n_cert['title']}}">&rarr;</a>
-        </li>
-        {% endif %}
-       
-      </ul>
-      </div>
+      <hr class="nomargin"/>
 
       <article role="main" class="blog-post">
         
@@ -73,11 +41,6 @@ css:
         <strong>
         {{site.data.ismsp-cert-summary[page.cert_item_no]['summary']}}
         </strong>
-        
-        <!-- <hr class="summary"> -->
-
-      
-
 
         <h3>인증기준</h3>  
         {{site.data.ismsp-cert-std[page.cert_item_no]['std']}}  
@@ -121,8 +84,6 @@ css:
         {% include social-share.html %}
       {% endif %}
 
-      
-
       {% if page.cert_item_no %}
         {% assign pno = page.cert_item_no|minus: 1 %}
         {% assign nno = page.cert_item_no|plus: 1 %}
@@ -152,8 +113,8 @@ css:
         {% endif %}
         
       </ul>
+      <div class="swipeNotice">스와이프(Swipe)로 이전/다음 항목으로 이동</div>
      
-
       {% if page.comments %}
         <div class="disqus-comments">
           {% include disqus.html %}
