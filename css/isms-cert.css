@@ -81,3 +81,7 @@ div.swipeNotice {
   color: #888;
   display: none;
 }
+
+li ol li{
+  margin: 0px
+}
