@@ -13,6 +13,7 @@ $(function(){
                 var prevPage =  document.querySelectorAll('li.previous>a')[0];
                 if(prevPage) window.location.href = prevPage.href;
             },
+            threshold:160
         });
         document.querySelectorAll('div.swipeNotice')[0].style.display = 'block';
     }
