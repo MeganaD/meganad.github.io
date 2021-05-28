@@ -82,6 +82,6 @@ div.swipeNotice {
   display: none;
 }
 
-li ol li{
+li ol,ul li{
   margin: 0px
 }
