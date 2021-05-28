@@ -7,5 +7,6 @@
     "workbench.colorTheme": "GitHub Light",
     "css.hover.documentation": false,
     "css.validate": false,
-    "css.hover.references": false
+    "css.hover.references": false,
+    "markdown.extension.italic.indicator": "_"
 }
