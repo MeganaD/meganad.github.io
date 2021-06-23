@@ -24,7 +24,9 @@ description: mega's blog
 # List of links in the navigation bar
 navbar-links:
   About: "about"
-  ISMS-P 인증기준: "ISMS-P/CERT/1"  
+  ISMS-P:
+    - 인증기준: "ISMS-P/CERT/1"  
+    - Summary: "ISMS-P/CERT/summary" 
   Tags: "tags"
   # Categories : "categories"
   # Resources:
