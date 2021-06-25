@@ -3,7 +3,10 @@ layout: isms-cert
 title: Summary
 ---
 
-<style>article ul li ul {list-style:none;padding-left:12px;margin-bottom:10px;margin-top:3px;}</style>
+<style>
+article ul {padding-left:20px;}
+article ul li ul {list-style:none;padding-left:12px;margin-bottom:10px;margin-top:3px;}
+</style>
 
 ## 관리체계 수립 및 운영:1
 
