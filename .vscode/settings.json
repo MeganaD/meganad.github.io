@@ -4,7 +4,7 @@
         "**/_site": true,
         "**/.vscode": true,
     },
-    "workbench.colorTheme": "GitHub Light",
+    "workbench.colorTheme": "Slack Theme Aubergine Dark",
     "css.hover.documentation": false,
     "css.validate": false,
     "css.hover.references": false,
