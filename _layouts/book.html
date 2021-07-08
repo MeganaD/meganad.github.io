@@ -33,7 +33,7 @@ layout: base
 
       <article role="main" class="blog-post">
 
-        <h3><span style="color:#337ab7;"><strong><em>책 리뷰</em></strong></span></h3>
+        <h3><span style="color:#286294;"><strong><em>책 리뷰</em></strong></span></h3>
         <div style="width: 100%;display: flex;">
           <div style="width: 60%;">
             <blockquote>
@@ -42,12 +42,10 @@ layout: base
               <h4>{{page.author}}</h4>
               <h4>{{page.publisher}}</h4>
             </blockquote>
-            <br>
-            <p>{{page.comment}}</p>
+            <p style="color: #3c763d;margin-left: 15px;">{{page.comment}}</p>
           </div>
           <div style="width: 40%;">
-            <img src="../../img/{{page.id}}/cover.jpg" alt="{{page.title}}" />
-            {{page.id}}
+            <img src='../../img/{{page.path|split: "/"|last|replace: ".md",""}}/cover.jpg' alt="{{page.title}}" />
           </div>
         </div>
         <hr />
