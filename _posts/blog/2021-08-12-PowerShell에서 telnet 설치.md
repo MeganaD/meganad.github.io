@@ -12,3 +12,6 @@ dism /online /Enable-Feature /FeatureName:TelnetClient
 ```
 
 ![](../../img/2021-08-12-PowerShell에서%20telnet%20설치/2021-08-12-15-09-27.png)
+
+
+ℹ️ _Windows 10 기준_
