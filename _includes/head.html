@@ -14,6 +14,9 @@
   {% elsif page.layout == "isms-cert" %}
   <meta name="description" content="정보보호 및 개인정보보호 관리체계(ISMS-P) 인증기준: {{ page.title }}">
   {% endif %}
+  {% if page.keywords %}
+  <meta name="keywords" content="{{ page.keywords }}">
+  {% endif %}
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }} {{ site.title-separator }} {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
