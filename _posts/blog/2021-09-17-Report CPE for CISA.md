@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CISA CPE 등록
-tag: [PIA]
+tag: [CISA]
 published: ture
 ---
 
