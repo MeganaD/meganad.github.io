@@ -11,6 +11,7 @@ For books, codes and other studies
 
 <p align="center">
 <a href="https://www.credly.com/badges/8ff5ba19-7b25-4b2d-ba4e-bf26a7d3fa44" target="_blank"><img src="/img/cisa_badge.png" alt="Certified Information Systems Auditor®"></a>
+<img src="/img/pia_badge.png" alt="개인정보 영향평가 전문인력" width="116" style="width: 116px;margin-left: 10px;">
 </p>
 
 <!-- <p align="center">
