@@ -26,7 +26,8 @@ _(아래 코드에 설치스크립트도 포함되어 있다)_
 ```powershell
 Install-Module posh-git,oh-my-posh -Scope CurrentUser
 curl -o $home\powerlevel10k_lean_with_git_status.omp.json https://gist.githubusercontent.com/MeganaD/2d1a501c2eb2642303831306ca5cb385/raw
-"`nSet-PoshPrompt -Theme ~\powerlevel10k_lean_with_git_status.omp.json" >> $PROFILE
+Add-Content $PROFILE "`nSet-PoshPrompt -Theme ~\powerlevel10k_lean_with_git_status.omp.json"
+
 ```
 
 
