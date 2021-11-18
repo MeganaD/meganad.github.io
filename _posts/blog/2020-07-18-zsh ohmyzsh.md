@@ -57,7 +57,7 @@ powerlevel10k에서 추천하는 [Meslo Nerd](https://github.com/romkatv/powerle
 Windows Terminal이라면 [Ctrl+,]를 눌러 프로필에 설치된 폰트를 설정할 수 있다.  
 ![](../../img/2020-07-18-zsh%20ohmyzsh/2021-11-18-13-05-28.png)  
 
-_모든 프로필에서 폰트를 적용하려면 Json파일을 열어 직적 수정하면 된다._  
+_모든 프로필에서 폰트를 적용하려면 Json파일을 열어 직접 수정하면 된다._  
 ![](../../img/2020-07-18-zsh%20ohmyzsh/2021-11-18-13-24-27.png)
 
 모든 글자가 잘 표시되면 프롬프트 스타일을 선택한다.  

@@ -31,10 +31,10 @@ Add-Content $PROFILE "`nImport-Module posh-git, oh-my-posh`nSet-PoshPrompt -Them
 
 깨진 글자가 표시된다면 Nerd 폰트가 설치 되지 않은 것이다.  
 powerlevel10k에서 추천하는 [Meslo Nerd](https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k){:target="_blank"}를 받아 사용하거나, [Nerd Fonts](https://www.nerdfonts.com/font-downloads){:target="_blank"}에서 원하는 폰트를 내려받아 설치하자.  
-Windows Terminal이라면 [Ctrl+,]를 눌러 프로필에 설치된 폰트를 설정할 수 있다.  
+Windows Terminal에서 [Ctrl+,]를 눌러 프로필에 설치된 폰트를 설정할 수 있다.  
 ![](../../img/2020-07-18-zsh%20ohmyzsh/2021-11-18-13-05-28.png)  
 
-_모든 프로필에서 폰트를 적용하려면 Json파일을 열어 직적 수정하면 된다._  
+_모든 프로필에서 폰트를 적용하려면 Json파일을 열어 직접 수정하면 된다._  
 ![](../../img/2020-07-18-zsh%20ohmyzsh/2021-11-18-13-24-27.png)
 
 
