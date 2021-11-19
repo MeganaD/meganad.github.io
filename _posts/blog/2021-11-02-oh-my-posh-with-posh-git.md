@@ -27,6 +27,8 @@ _(아래 코드에 설치스크립트도 포함되어 있다)_
 Install-Module posh-git,oh-my-posh -Scope CurrentUser
 curl -o $home\powerlevel10k_lean_with_git_status.omp.json https://gist.githubusercontent.com/MeganaD/2d1a501c2eb2642303831306ca5cb385/raw
 Add-Content $PROFILE "`nImport-Module posh-git, oh-my-posh`nSet-PoshPrompt -Theme ~\powerlevel10k_lean_with_git_status.omp.json"
+. $PROFILE
+
 ```
 
 깨진 글자가 표시된다면 Nerd 폰트가 설치 되지 않은 것이다.  
