@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Powerlevel10k with Git prompt theme for Powershell
+title: Powerlevel10k with Git status for Powershell
 tag: [Powershell, Windows Terminal]
 published: True
 ---
