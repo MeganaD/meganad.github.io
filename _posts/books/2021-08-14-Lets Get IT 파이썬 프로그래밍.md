@@ -9,16 +9,15 @@ published: true
 tags: [book, ]
 ---
 
+**흠잡을데 없는 좋은 책**
 
-### 추천 포인트
+#### ◎ 추천 포인트
 1. 프로그래밍을 가르치는 현직 선생님의 노하우
 2. 프로젝트를 위해 꼭 필요한 문법만 적절히 안배
 3. 공공데이터를 활용한 데이터 분석 실습
 4. 무료(‼)로 제공되는 [저자의 유튜브 강의](https://www.youtube.com/playlist?list=PLRtkynNyEsXnmKrx0jD9LSaDpJ_oIQs4C){:target="_blank"}
 5. 책이 없어도 [책을 볼 수 있도록 한 배려](https://thebook.io/080251/){:target="_blank"}
 6. 남는게 있을까? 싶은 가격  
-
-**한마디로 흠잡을데 없는 좋은 책이다.**
 
 <br>
 
