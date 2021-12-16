@@ -3,6 +3,7 @@ layout: post
 title: Powershell에서 tab 자동완성 
 tag: [Powershell, Windows Terminal]
 published: True
+last_modified_at: 2021-12-16
 ---
 
 간단한 파이썬 실습을 위해 윈도우즈 터미널을 쓰고 있다.  
@@ -23,14 +24,22 @@ tab 이 아닌 &lt;Ctrl+Space&gt;를 누르면 메뉴 형태로 나타난다!
 
 파워쉘 PROFILE에서 [키 바인딩 변경](https://docs.microsoft.com/en-us/powershell/module/psreadline/set-psreadlinekeyhandler?view=powershell-7){:target="_blank"}을 통해 Tab,⇧,⇩ 키가 Zsh처럼 동작하게 수정할 수 있다.  
 
-아래 코드를 파워쉘에서 실행하고 파워쉘을 다시 시작하면 된다.
+아래 코드를 파워쉘에서 실행하면 된다.
 
 ```powershell
-(curl https://gist.githubusercontent.com/MeganaD/fe3894b39697da767b8b19b3e0bc047b/raw).Content | Add-Content $PROFILE
+(Invoke-WebRequest
+ https://gist.githubusercontent.com/MeganaD/fe3894b39697da767b8b19b3e0bc047b/raw).Content | Add-Content $PROFILE
+. $PROFILE
+
 ```
 
 *위 코드는 다음 네줄을 파워쉘 PROFILE에 추가한다.*
-<script src="https://gist.github.com/MeganaD/fe3894b39697da767b8b19b3e0bc047b.js"></script>
+```powershell
+Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
+Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
+Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
+Set-PSReadLineOption -HistorySearchCursorMovesToEnd
+```
 
 *히스토리 탐색시 커서가 젤 뒤로 가지 않아 해당 내용 추가했다.(위 코드 네번째 줄)*
 
