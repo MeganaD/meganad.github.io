@@ -13,6 +13,7 @@ For books, codes and other studies
 <a href="https://www.credly.com/badges/8ff5ba19-7b25-4b2d-ba4e-bf26a7d3fa44" target="_blank"><img src="/img/cisa-cert.svg" alt="Certified Information Systems Auditor®" style="width: 100px;margin: 6px;"></a>
 <a><img src="/img/isc2_cissp2.png" alt="Certified Information Systems Security Professional" style="width: 100px;margin: 6px;"></a>
 <a><img src="/img/pia_badge.png" alt="개인정보 영향평가 전문인력" style="width: 100px;margin: 6px;"></a>
+<a><img src="/img/cppg_cert.png" alt="개인정보관리사" style="width: 100px;margin: 6px;"></a>
 </p>
 
 <!-- <p align="center">
