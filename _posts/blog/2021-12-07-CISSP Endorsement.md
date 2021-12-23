@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CISSP 보증(Endorsement) 받기
+title: CISSP 추천(Endorsement) 받기
 tag: [CISSP]
 published: true
 ---
@@ -17,7 +17,7 @@ Endorsement 작성 페이지로 이동하면 등록순서가 표시된다.
 1. 안내
 2. 인증 유형 선택
 3. 자격 유형 선택
-4. 보증(Endorsement) 요청 
+4. 추천(Endorsement) 요청 
 5. 경력 면제 등록
 6. 경력 등록
 7. 확인 및 제출 
@@ -39,7 +39,7 @@ CISSP Member가 되려면 관련경력 5년이 필요하다.
 <p></p>
 
 ![](../../img/2021-12-07-CISSP%20Endorsement/2021-12-22-01-53-53.png)  
-유효한 CISSP 자격이 있는 보증인(Endorser)이 있다면 Last Name과 자격번호를 넣는다.  
+유효한 CISSP 자격이 있는 추천인(Endorser)이 있다면 Last Name과 자격번호를 넣는다.  
 혹시 아는 CISSP이 없다면 아래 (ISC)²에 요청하기를 선택한다.   
 (Endorser가 있다면 서류검토가 빠르게 진행되므로 자격증 발급까 시간을 줄일수 있다. Endorser에게 이후 등록할 증빙에 대한 리뷰요청이 간다고 한다.😑)  
 
