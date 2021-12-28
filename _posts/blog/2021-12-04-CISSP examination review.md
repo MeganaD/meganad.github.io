@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CISSP 시험 후기
+title: CISSP 시험 합격 후기
 tag: [CISSP]
 published: ture
 ---
