@@ -77,13 +77,13 @@ published: true
 
 <p></p>
 
-> _참고자료_  
- 1. <a name="ref1" href="https://www.tta.or.kr/data/weekly_view.jsp?news_id=502" target="_blank">https://www.tta.or.kr/data/weekly_view.jsp?news_id=502</a>
-2. [https://www.certificationkits.com/cisco-certification/ccna-voice-certification-topics-a-labs/ccna-voice-describe-voip-technologies/ccna-voice-h323-mgcp-sip-and-sccp-protocols/](https://www.certificationkits.com/cisco-certification/ccna-voice-certification-topics-a-labs/ccna-voice-describe-voip-technologies/ccna-voice-h323-mgcp-sip-and-sccp-protocols/){:target="_blank"}
-3. [https://computer.howstuffworks.com/ip-telephony.htm](https://computer.howstuffworks.com/ip-telephony.htm){:target="_blank"}
-4. <a name="ref4" href="https://sc1.checkpoint.com/documents/R80.10/WebAdminGuides/EN/CP_R80.10_VoIP_AdministrationGuide/html_frameset.htm?topic=documents/R80.10/WebAdminGuides/EN/CP_R80.10_VoIP_AdministrationGuide/87790" target="_blank">https://sc1.checkpoint.com/documents/R80.10/WebAdminGuides/EN/CP_R80.10_VoIP_AdministrationGuide/html_frameset.htm?topic=documents/R80.10/WebAdminGuides/EN/CP_R80.10_VoIP_AdministrationGuide/87790</a>
-5. [https://en.wikipedia.org/wiki/Secure_Real-time_Transport_Protocol](https://en.wikipedia.org/wiki/Secure_Real-time_Transport_Protocol){:target="_blank"}
-6. [https://datatracker.ietf.org/doc/rfc3711/](https://datatracker.ietf.org/doc/rfc3711/){:target="_blank"}
+_참고자료_  
+_1. [https://www.tta.or.kr/data/weekly_view.jsp?news_id=502](https://www.tta.or.kr/data/weekly_view.jsp?news_id=502){:target="_blank"}{:name="ref1"}_  
+_2. [www.certificationkits.com - CCNA Voice: H.323, MGCP, SIP and SCCP Protocols](https://www.certificationkits.com/cisco-certification/ccna-voice-certification-topics-a-labs/ccna-voice-describe-voip-technologies/ccna-voice-h323-mgcp-sip-and-sccp-protocols/){:target="_blank"}{:name="ref2"}_  
+_3. [https://computer.howstuffworks.com/ip-telephony.htm](https://computer.howstuffworks.com/ip-telephony.htm){:target="_blank"}{:name="ref3"}_  
+_4. [sc1.checkpoint.com - VoIP R80.10 Administration Guide](https://sc1.checkpoint.com/documents/R80.10/WebAdminGuides/EN/CP_R80.10_VoIP_AdministrationGuide/html_frameset.htm?topic=documents/R80.10/WebAdminGuides/EN/CP_R80.10_VoIP_AdministrationGuide/87790){:target="_blank"}{:name="ref4"}_  
+_5. [https://en.wikipedia.org/wiki/Secure_Real-time_Transport_Protocol](https://en.wikipedia.org/wiki/Secure_Real-time_Transport_Protocol){:target="_blank"}_  
+_6. [https://datatracker.ietf.org/doc/rfc3711/](https://datatracker.ietf.org/doc/rfc3711/){:target="_blank"}_
 
 
 <p></p>
