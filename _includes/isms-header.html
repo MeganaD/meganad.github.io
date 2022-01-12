@@ -29,6 +29,9 @@
             <a href="/ISMS-P/CERT/1">1.관리체계</a> |
             <a href="/ISMS-P/CERT/2">2.보호대책</a> |
             <a href="/ISMS-P/CERT/3">3.개인정보</a>
+            {% if page.last_modified_at %}
+              <div><span style="font-style: italic;font-size: 13px;float: right;color: #888;">last update at: {{page.last_modified_at}}</span></div>
+            {% endif %}
           </div>
         </div>
         <div class="post-heading">
