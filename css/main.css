@@ -49,6 +49,14 @@ hr.small {
   border-radius: 3px;
 }
 
+li {
+  margin-bottom: 3px;
+}
+li:first-child {
+  margin-top: 3px;
+}
+
+
 .main-content {
   padding-top: 80px;
 }
