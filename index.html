@@ -19,7 +19,11 @@ use-site-title: true
     </a>
 
     <p class="post-meta">
+      {% if post.last_modified_at %}
+      Updated on {{ post.last_modified_at | date: "%B %-d, %Y" }}
+      {% else %}
       Posted on {{ post.date | date: "%B %-d, %Y" }}
+      {% endif %}
     </p>
 
     <div class="post-entry-container">
