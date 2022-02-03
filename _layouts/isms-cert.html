@@ -61,6 +61,17 @@ common-js:
           {% endfor %}
           </ul>
 
+        {% assign chklist2 = site.data.ismsp-cert-chk-Virtual-Asset[page.cert_item_no]  %}
+        {% if chklist2['chk1'] %}
+        <h4>가상자산 사업자 확인사항</h4>
+          <ul>            
+          {% for item in chklist2 offset:2 %}
+            {% if item[1] %}<li>{{ item[1] | remove: '<p>' | remove: '</p>' }}</li>{% endif %}
+          {% endfor %}
+          </ul>
+        {% endif %}
+
+
         {% assign errlist = site.data.ismsp-cert-err[page.cert_item_no] %}
         <h3>결함사례</h3>
         <ul>
