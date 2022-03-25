@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CISSP 인증서 패키지
-subtilte: CISSP Certificate Package
+subtitle: CISSP Certificate Package
 tag: [CISSP]
 published: True
 ---
@@ -24,7 +24,7 @@ published: True
 실제 옷에 구멍을 내야하는 두꺼운 핀스타일...
 배지는 CISA쪽이 나아보인다.  
 
-완전히 까먹고 있다가 받으니 좋긴하지만...뭔가 좀 아쉽다.
-상자가 구겨지고, 봉인테이프는 너덜너덜, 군데 군데 벌어져있다...  
+완전히 까먹고 있다가 받으니 좋긴하지만...뭔가 좀 아쉽다.  
+상자가 구겨지고, 군데군데 벌어져있다. 봉인테이프는 너덜너덜...  
 운임이 젤 싼걸로 보내는듯 하다😑  
 돈도 많이 받음서 배송비좀 쓰지... 😠
