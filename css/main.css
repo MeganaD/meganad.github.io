@@ -55,7 +55,9 @@ li {
 li:first-child {
   margin-top: 3px;
 }
-
+strong{
+  color: #4c61d6;
+}
 
 .main-content {
   padding-top: 80px;
