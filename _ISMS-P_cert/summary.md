@@ -6,6 +6,7 @@ title: Summary
 <style>
 article ul {padding-left:20px;}
 article ul li ul {list-style:none;padding-left:12px;margin-bottom:10px;margin-top:3px;}
+h4{color:unset;}
 </style>
 
 ## 관리체계 수립 및 운영:[1](1)
