@@ -46,9 +46,9 @@ cmd와 Powershell 양쪽에서 쓰려면 bat파일을 만들면 된다.
 vim을 다운받아서 설치하는 경우<a id="download-vim"></a>
 ----
 
-[vim.org](https://www.vim.org/download.php#pc){:target="_blank"}에서 gvim82.exe를 다운받아서 실행한다.
+[vim.org](https://www.vim.org/download.php#pc){:target="_blank"}에서 [gvim90.exe](https://ftp.nluug.nl/pub/vim/pc/gvim90.exe){:target="_blank"}를 다운받아서 실행한다.
 
-![](../img/2020-07-10-powershell%20cmd%20vi/2021-03-21-23-27-00.png)
+![](../../img/2020-07-10-powershell%20cmd%20vi/2021-03-21-23-27-00.png)
 
 <!-- ![](../img/2020-07-10-powershell%20cmd%20vi/2021-03-21-23-27-43.png) -->
 
@@ -64,7 +64,7 @@ m하나 더 누르는게 귀찮으니, vi.bat로 복사본을 만들자.
 다운받아 설치 할 경우 아래처럼 한글로 출력된다.  
 ![](../img/2020-07-10-powershell%20cmd%20vi/2021-03-22-00-07-16.png){: width="600px"}
 
-영어로 변경하고 싶다면 C:\Program Files (x86)\Vim\vim82\lang 폴더를 삭제하자.😑  
+영어로 변경하고 싶다면 C:\Program Files (x86)\Vim\vim90\lang 폴더를 삭제하자.😑  
 
 삭제하지 않고 변경하려면 관리자 권한으로
 `vi "C:\Program Files (x86)\Vim\_vimrc"`를 실행하고 첫 줄에 `language messages en`를 추가하자.  
