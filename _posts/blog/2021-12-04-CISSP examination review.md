@@ -2,7 +2,7 @@
 layout: post
 title: CISSP 시험 합격 후기
 tag: [CISSP]
-published: ture
+published: false
 ---
 
 
