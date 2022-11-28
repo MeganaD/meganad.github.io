@@ -10,11 +10,11 @@ For books, codes and other studies
 <br />  
 
 <p align="center">
-    <a href="" target=""><img src="/img/ISMSP_badge.png" alt="ISMS-P 인증심사원" style="width: 125px;margin: 6px;"></a>
-    <a href="/img/p/pia.png" target="_blank"><img src="/img/pia_badge.png" alt="개인정보 영향평가 전문인력" style="width: 100px;margin: 6px;"></a>
-    <a href="/img/p/cisa.png" target="_blank"><img src="/img/cisa-cert.svg" alt="Certified Information Systems Auditor®" style="width: 100px;margin: 6px;"></a>
-    <a href="/img/p/cissp.png" target="_blank"><img src="/img/isc2_cissp2.png" alt="Certified Information Systems Security Professional" style="width: 100px;margin: 6px;"></a>
-    <a href="/img/p/cppg.png" target="_blank"><img src="/img/cppg_badge.png" alt="개인정보관리사" style="width: 100px;margin: 6px;padding: 5px;"></a>
+    <a href="" target=""><img src="/img/ISMSP_badge.png" title="ISMS-P 인증심사원" alt="ISMS-P 인증심사원" style="width: 125px;margin: 6px;"></a>
+    <a href="/img/p/pia.png" target="_blank"><img src="/img/pia_badge.png" title="개인정보 영향평가 전문인력" alt="개인정보 영향평가 전문인력" style="width: 100px;margin: 6px;"></a>
+    <a href="/img/p/cisa.png" target="_blank"><img src="/img/cisa-cert.svg" title="Certified Information Systems Auditor®" alt="Certified Information Systems Auditor®" style="width: 100px;margin: 6px;"></a>
+    <a href="/img/p/cissp.png" target="_blank"><img src="/img/isc2_cissp2.png" title="Certified Information Systems Security Professional" alt="Certified Information Systems Security Professional" style="width: 100px;margin: 6px;"></a>
+    <a href="/img/p/cppg.png" target="_blank"><img src="/img/cppg_badge.png" title="CPPG(개인정보관리사)" alt="CPPG(개인정보관리사)" style="width: 100px;margin: 6px;padding: 5px;"></a>
 </p>
 
 <!-- <p align="center">
