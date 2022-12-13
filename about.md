@@ -8,7 +8,7 @@ For books, codes and other studies
 </h2>  
 
 <br />  
-<style type="text/css">.modal-400{width:400px;}.modal-500{width:500px;}</style>
+<style type="text/css">.modal-400{width:400px;}.modal-500{width:500px;}.modal-open{  overflow: visible;}</style>
 <p align="center">
     <a data-toggle="modal" data-target=".modal-ismsp"><img src="/img/ISMSP_badge.png" title="ISMS-P 인증심사원" alt="ISMS-P 인증심사원" style="width: 125px;margin: 6px;"></a>
     <a data-toggle="modal" data-target=".modal-pia"><img src="/img/pia_badge.png" title="개인정보 영향평가 전문인력" alt="개인정보 영향평가 전문인력" style="width: 100px;margin: 6px;"></a>
